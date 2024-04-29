@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import appwriteService from '../appwrite/config'
-import { useNavigate } from 'react-router-dom'
+import appwriteService from '../appwrite/config.js'
 import { Container, PostCard } from '../components'
 
 function AllPosts() {
